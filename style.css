@@ -1,0 +1,87 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #303030;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #222020;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Timer styles */
+.timer {
+  background-color: rgba(122, 83, 231, 0.319);
+  color: #fff;
+  font-size: 48px;
+  padding: 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#time-left {
+  line-height: 1.2;
+}
+
+/* Control button styles */
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  background-color: rgba(122, 83, 231, 0.319);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:  rgba(122, 83, 231, 0.319);
+}
+
+/* Customization input styles */
+.customization {
+  margin: 20px 0;
+}
+
+label {
+  font-size: 18px;
+  color: #fff;
+}
+
+input {
+  width: 60px;
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .timer {
+      font-size: 36px;
+      width: 150px;
+      height: 150px;
+  }
+}
